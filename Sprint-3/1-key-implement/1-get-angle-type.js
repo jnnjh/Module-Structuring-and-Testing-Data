@@ -19,10 +19,10 @@ function getAngleType(angle) {
 // we're going to use this helper function to make our assertions easier to read
 // if the actual output matches the target output, the test will pass
 function assertEquals(actualOutput, targetOutput) {
-  console.assert(
-    actualOutput === targetOutput,
-    `Expected ${actualOutput} to equal ${targetOutput}`
-  );
+	console.assert(
+		actualOutput === targetOutput,
+		`Expected ${actualOutput} to equal ${targetOutput}`
+  	);
 }
 
 // Acceptance criteria:

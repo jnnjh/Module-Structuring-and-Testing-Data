@@ -16,10 +16,10 @@ function isProperFraction(numerator, denominator) {
 
 // here's our helper again
 function assertEquals(actualOutput, targetOutput) {
-  console.assert(
-    actualOutput === targetOutput,
-    `Expected ${actualOutput} to equal ${targetOutput}`
-  );
+    console.assert(
+        actualOutput === targetOutput,
+        `Expected ${actualOutput} to equal ${targetOutput}`
+    );
 }
 
 // Acceptance criteria:
